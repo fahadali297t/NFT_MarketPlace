@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+/* Reset some default browser styles */
+:root {
+  --primary-color: #a259ff;
+  --secondary-color: #ffffff;
+  --background-color: #2b2b2b;
+  --font-color: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Set default font and background color */
+body {
+  background-color: var(--background-color);
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.customBtn {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+.customBtn:hover {
+  background-color: #8a5bff;
+}
+.heading {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* navBar */
+
+.navbar-brand {
+  color: var(--font-color);
+}
+.navbar-brand:hover {
+  color: #dddddd;
+}
+.nav-link {
+  color: var(--font-color);
+  text-decoration: none;
+  margin-right: 1rem;
+  font-weight: 600;
+}
+.nav-link:hover {
+  color: var(--primary-color);
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--primary-color);
+}
+.navBtn {
+  width: 300px;
+}
+
+/* hero section */
+.hero_container {
+  width: auto;
+  height: 70vh;
+  /* background-color: #8a5bff; */
+}
+.hero-img {
+  width: 70%;
+}
+.hero-img img {
+  max-width: 100%;
+}
